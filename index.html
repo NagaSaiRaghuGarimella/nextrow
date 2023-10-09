@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextrow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video id="myVideo" onEnded={handleEventPop} controls>
+          <source src="canvas.mp4" type="video/mp4"/>
+        </video>
+     <div id="form-popup">
+            <form class='form-container'>
+                <h3>Registration Form</h3>
+                <label>Full Name</label>
+                <input type="text" placeholder='Full Name'></input>
+                <label>Email Id</label>
+                <input type="text" placeholder="Email Id"></input>
+                <label>Password</label>
+                <input type="password" placeholder="Password"></input>
+                <button class='btn'>Submit</button>
+            </form>
+          </div>
+        </div>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "39623026",
+    formId: "cf22ae1e-7166-46bc-8c5f-1f537772789a"
+  });
+</script>
+        <script src="script.js"></script>
+</body>
+</html>
